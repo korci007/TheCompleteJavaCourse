@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+package beginner.finaltask;
 
 /*
 1. Go to imdb and choose an actor/actress
