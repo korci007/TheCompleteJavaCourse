@@ -5,9 +5,9 @@ public class MovieActor {
     String actorName;
     int actorBirtDate;
     int date = 2023;
-    private int actorAge;
-    private String actorStatus;
-    private int actorId;
+    private final int actorAge;
+    private final String actorStatus;
+    private final int actorId;
 
     public MovieActor(String actorName, int actorBirtDate, String actorStatus, int actorId) {
         this.actorName = actorName;

@@ -5,7 +5,7 @@ public class MovieActorApp {
         int actorId = 1;
         MovieActor margot = new MovieActor("Margot Robbie", 1990, "single", actorId++);
         MovieActor tom = new MovieActor("Tom Cruise", 1963, "married", actorId++);
-        MovieActor  monica = new MovieActor("Monica Bellucci", 1964, "married", actorId++);
+        MovieActor  monica = new MovieActor("Monica Bellucci", 1964, "married", actorId);
 
         MovieActor[] movieActors = {margot, tom, monica};
 
