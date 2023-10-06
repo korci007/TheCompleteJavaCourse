@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59267c3c-bb52-4da3-8d4d-08dea94bc3bd" name="Changes" comment=" take 2">
+    <list default="true" id="59267c3c-bb52-4da3-8d4d-08dea94bc3bd" name="Changes" comment="added some minor classes">
+      <change afterPath="$PROJECT_DIR$/src/beginner/primitives/CollatzCalculatorApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/beginner/primitives/NumberOfNumsDivisibleApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/beginner/primitives/SumApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intermediate/classesandobjects/MovieActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediate/classesandobjects/MovieActor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intermediate/classesandobjects/MovieActorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediate/classesandobjects/MovieActorApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +28,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2WDpKcIjudoIIactYhQFyyLQEcZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,16 +40,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\korne\source\repos\TheCompleteJavaCourse\src\beginner\primitives" />
@@ -56,7 +57,20 @@
       <recent name="C:\Users\korne\source\repos\TheCompleteJavaCourse" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MovieActorApp">
+  <component name="RunManager" selected="Application.CollatzCalculatorApp">
+    <configuration name="CollatzCalculatorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beginner.primitives.CollatzCalculatorApp" />
+      <module name="TheCompleteJavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="beginner.primitives.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MovieActorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="intermediate.classesandobjects.MovieActorApp" />
       <module name="TheCompleteJavaCourse" />
@@ -96,8 +110,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beginner.primitives.SumApp" />
+      <module name="TheCompleteJavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="beginner.primitives.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollatzCalculatorApp" />
+        <item itemvalue="Application.SumApp" />
         <item itemvalue="Application.MovieActorApp" />
         <item itemvalue="Application.MyIMDBApp" />
         <item itemvalue="Application.MovieActorTest" />
@@ -129,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696282548449</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="warnings eliminated">
+      <option name="closed" value="true" />
+      <created>1696282869727</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696282869727</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +184,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="MovieActorApp done" />
     <MESSAGE value=" take 2" />
-    <option name="LAST_COMMIT_MESSAGE" value=" take 2" />
+    <MESSAGE value="warnings eliminated" />
+    <MESSAGE value="added some minor classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some minor classes" />
   </component>
 </project>
