@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59267c3c-bb52-4da3-8d4d-08dea94bc3bd" name="Changes" comment="added some minor classes">
-      <change afterPath="$PROJECT_DIR$/src/beginner/primitives/CollatzCalculatorApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/beginner/primitives/NumberOfNumsDivisibleApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/beginner/primitives/SumApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediate/inheritance/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediate/inheritance/PersonList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediate/inheritance/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediate/inheritance/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +58,7 @@
       <recent name="C:\Users\korne\source\repos\TheCompleteJavaCourse" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CollatzCalculatorApp">
+  <component name="RunManager" selected="Application.PersonList">
     <configuration name="CollatzCalculatorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="beginner.primitives.CollatzCalculatorApp" />
       <module name="TheCompleteJavaCourse" />
@@ -84,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieActorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.classesandobjects.MovieActorTest" />
+    <configuration name="MyIMDBApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beginner.finaltask.MyIMDBApp" />
       <module name="TheCompleteJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="intermediate.classesandobjects.*" />
+          <option name="PATTERN" value="beginner.finaltask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyIMDBApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beginner.finaltask.MyIMDBApp" />
+    <configuration name="PersonList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.inheritance.PersonList" />
       <module name="TheCompleteJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="beginner.finaltask.*" />
+          <option name="PATTERN" value="intermediate.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonList" />
         <item itemvalue="Application.CollatzCalculatorApp" />
         <item itemvalue="Application.SumApp" />
         <item itemvalue="Application.MovieActorApp" />
         <item itemvalue="Application.MyIMDBApp" />
-        <item itemvalue="Application.MovieActorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696282869727</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added some minor classes">
+      <option name="closed" value="true" />
+      <created>1696622991865</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696622991865</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
