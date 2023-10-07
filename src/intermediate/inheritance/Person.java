@@ -1,13 +1,13 @@
 package intermediate.inheritance;
 
 public class Person {
-    private String occupation;
-    private String name;
-    private int age;
-    private String address;
-    private String phoneNumber;
-    private String emailAddress;
-    private String likes;
+    private final String occupation;
+    private final String name;
+    private final int age;
+    private final String address;
+    private final String phoneNumber;
+    private final String emailAddress;
+    private final String likes;
 
     public Person(String occupation, String name, int age, String address, String phoneNumber, String emailAddress, String likes) {
         this.occupation = occupation;
