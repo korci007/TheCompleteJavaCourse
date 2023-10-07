@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59267c3c-bb52-4da3-8d4d-08dea94bc3bd" name="Changes" comment="added some minor classes">
-      <change afterPath="$PROJECT_DIR$/src/intermediate/inheritance/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intermediate/inheritance/PersonList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intermediate/inheritance/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intermediate/inheritance/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="59267c3c-bb52-4da3-8d4d-08dea94bc3bd" name="Changes" comment="PersonList, Person, Student, Teacher added">
+      <change beforePath="$PROJECT_DIR$/src/intermediate/inheritance/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediate/inheritance/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intermediate/inheritance/PersonList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediate/inheritance/PersonList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intermediate/inheritance/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediate/inheritance/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intermediate/inheritance/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediate/inheritance/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +40,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\korne\source\repos\TheCompleteJavaCourse\src\beginner\primitives" />
@@ -175,7 +176,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696622991865</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="PersonList, Person, Student, Teacher added">
+      <option name="closed" value="true" />
+      <created>1696704598204</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696704598204</updated>
+    </task>
+    <task id="LOCAL-00006" summary="PersonList, Person, Student, Teacher added">
+      <option name="closed" value="true" />
+      <created>1696704633938</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696704633938</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +212,7 @@
     <MESSAGE value=" take 2" />
     <MESSAGE value="warnings eliminated" />
     <MESSAGE value="added some minor classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some minor classes" />
+    <MESSAGE value="PersonList, Person, Student, Teacher added" />
+    <option name="LAST_COMMIT_MESSAGE" value="PersonList, Person, Student, Teacher added" />
   </component>
 </project>
