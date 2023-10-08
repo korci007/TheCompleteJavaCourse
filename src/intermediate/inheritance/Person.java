@@ -7,7 +7,7 @@ public class Person {
     private final String address;
     private final String phoneNumber;
     private final String emailAddress;
-    private final String likes;
+    private String likes;
 
     public Person(String occupation, String name, int age, String address, String phoneNumber, String emailAddress, String likes) {
         this.occupation = occupation;
@@ -21,13 +21,17 @@ public class Person {
 
     public void getBio() {
         System.out.println("Name: " + name + " (" + occupation + ")");
-        System.out.println("Age: " + age );
+        System.out.println("Age: " + age);
         System.out.println("Address: " + address);
         System.out.println("Phone number: " + phoneNumber + " , Email: " + emailAddress);
     }
 
     public String getLikes() {
         return likes;
+    }
+
+    public void setLikes(String likes) {
+        this.likes = likes;
     }
 
     public String getName() {

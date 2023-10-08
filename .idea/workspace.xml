@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59267c3c-bb52-4da3-8d4d-08dea94bc3bd" name="Changes" comment="PersonList, Person, Student, Teacher added">
+    <list default="true" id="59267c3c-bb52-4da3-8d4d-08dea94bc3bd" name="Changes" comment="added likes parameter">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/intermediate/inheritance/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediate/inheritance/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/intermediate/inheritance/PersonList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediate/inheritance/PersonList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intermediate/inheritance/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediate/inheritance/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intermediate/inheritance/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediate/inheritance/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -49,7 +51,8 @@
     "git-widget-placeholder": "master",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -192,7 +195,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696704633938</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added likes parameter">
+      <option name="closed" value="true" />
+      <created>1696705217927</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696705217927</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added likes parameter">
+      <option name="closed" value="true" />
+      <created>1696705466400</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696705466400</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +232,7 @@
     <MESSAGE value="warnings eliminated" />
     <MESSAGE value="added some minor classes" />
     <MESSAGE value="PersonList, Person, Student, Teacher added" />
-    <option name="LAST_COMMIT_MESSAGE" value="PersonList, Person, Student, Teacher added" />
+    <MESSAGE value="added likes parameter" />
+    <option name="LAST_COMMIT_MESSAGE" value="added likes parameter" />
   </component>
 </project>
