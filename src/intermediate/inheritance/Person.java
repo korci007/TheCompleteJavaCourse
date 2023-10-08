@@ -1,6 +1,7 @@
 package intermediate.inheritance;
 
 public class Person {
+    private static int idNumber;
     private final String occupation;
     private final String name;
     private final int age;
@@ -32,5 +33,9 @@ public class Person {
 
     public String getName() {
         return name;
+    }
+
+    public static int getIdNumber() {
+        return ++Person.idNumber;
     }
 }
