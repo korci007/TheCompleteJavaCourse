@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59267c3c-bb52-4da3-8d4d-08dea94bc3bd" name="Changes" comment="PersonList, Person, Student, Teacher added">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="59267c3c-bb52-4da3-8d4d-08dea94bc3bd" name="Changes" comment="static ID added">
+      <change afterPath="$PROJECT_DIR$/src/beginner/primitives/Gaussian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/beginner/primitives/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediate/exception/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediate/inheritance/MultipleFuction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intermediate/inheritance/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediate/inheritance/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intermediate/inheritance/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediate/inheritance/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intermediate/inheritance/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediate/inheritance/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,8 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -60,9 +61,9 @@
       <recent name="C:\Users\korne\source\repos\TheCompleteJavaCourse" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PersonList">
-    <configuration name="CollatzCalculatorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beginner.primitives.CollatzCalculatorApp" />
+  <component name="RunManager" selected="Application.intermediate.exception.Main">
+    <configuration name="Gaussian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beginner.primitives.Gaussian" />
       <module name="TheCompleteJavaCourse" />
       <extension name="coverage">
         <pattern>
@@ -74,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieActorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.classesandobjects.MovieActorApp" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beginner.primitives.Main" />
       <module name="TheCompleteJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="intermediate.classesandobjects.*" />
+          <option name="PATTERN" value="beginner.primitives.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyIMDBApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beginner.finaltask.MyIMDBApp" />
+    <configuration name="MultipleFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.inheritance.MultipleFunction" />
       <module name="TheCompleteJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="beginner.finaltask.*" />
+          <option name="PATTERN" value="intermediate.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beginner.primitives.SumApp" />
+    <configuration name="intermediate.exception.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.exception.Main" />
       <module name="TheCompleteJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="beginner.primitives.*" />
+          <option name="PATTERN" value="intermediate.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.intermediate.exception.Main" />
+        <item itemvalue="Application.Gaussian" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MultipleFunction" />
         <item itemvalue="Application.PersonList" />
-        <item itemvalue="Application.CollatzCalculatorApp" />
-        <item itemvalue="Application.SumApp" />
-        <item itemvalue="Application.MovieActorApp" />
-        <item itemvalue="Application.MyIMDBApp" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696704633938</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="static ID added">
+      <option name="closed" value="true" />
+      <created>1696759968324</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696759968324</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +223,7 @@
     <MESSAGE value="warnings eliminated" />
     <MESSAGE value="added some minor classes" />
     <MESSAGE value="PersonList, Person, Student, Teacher added" />
-    <option name="LAST_COMMIT_MESSAGE" value="PersonList, Person, Student, Teacher added" />
+    <MESSAGE value="static ID added" />
+    <option name="LAST_COMMIT_MESSAGE" value="static ID added" />
   </component>
 </project>
