@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(System.in);
 //        int len = scanner.nextInt();
 //        int[] array = new int[len];
 //        int max =  0;
