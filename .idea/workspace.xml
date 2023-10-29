@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59267c3c-bb52-4da3-8d4d-08dea94bc3bd" name="Changes" comment="getter and setter added for likes">
-      <change afterPath="$PROJECT_DIR$/src/beginner/constructor/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/beginner/constructor/AccountTestClass.java" afterDir="false" />
+    <list default="true" id="59267c3c-bb52-4da3-8d4d-08dea94bc3bd" name="Changes" comment="new class for Hyperskill practice">
+      <change afterPath="$PROJECT_DIR$/src/intermediate/file/FindTheGreatesNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediate/file/GetSumOfNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,7 @@
       <recent name="C:\Users\korne\source\repos\TheCompleteJavaCourse" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AccountTestClass">
+  <component name="RunManager" selected="Application.GetSumOfNumbers">
     <configuration name="AccountTestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="beginner.constructor.AccountTestClass" />
       <module name="TheCompleteJavaCourse" />
@@ -76,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollatzCalculatorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beginner.primitives.CollatzCalculatorApp" />
+    <configuration name="FindTheGreatesNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.file.FindTheGreatesNumber" />
       <module name="TheCompleteJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="beginner.primitives.*" />
+          <option name="PATTERN" value="intermediate.file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieActorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.classesandobjects.MovieActorApp" />
+    <configuration name="GetSumOfNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.file.GetSumOfNumbers" />
       <module name="TheCompleteJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="intermediate.classesandobjects.*" />
+          <option name="PATTERN" value="intermediate.file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetSumOfNumbers" />
+        <item itemvalue="Application.FindTheGreatesNumber" />
         <item itemvalue="Application.AccountTestClass" />
-        <item itemvalue="Application.PersonList" />
-        <item itemvalue="Application.CollatzCalculatorApp" />
         <item itemvalue="Application.SumApp" />
-        <item itemvalue="Application.MovieActorApp" />
+        <item itemvalue="Application.PersonList" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696792435612</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new class for Hyperskill practice">
+      <option name="closed" value="true" />
+      <created>1697369412640</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697369412640</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,6 +250,7 @@
     <MESSAGE value="PersonList, Person, Student, Teacher added" />
     <MESSAGE value="added likes parameter" />
     <MESSAGE value="getter and setter added for likes" />
-    <option name="LAST_COMMIT_MESSAGE" value="getter and setter added for likes" />
+    <MESSAGE value="new class for Hyperskill practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="new class for Hyperskill practice" />
   </component>
 </project>
