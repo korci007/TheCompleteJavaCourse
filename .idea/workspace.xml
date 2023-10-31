@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59267c3c-bb52-4da3-8d4d-08dea94bc3bd" name="Changes" comment="static ID added">
-      <change afterPath="$PROJECT_DIR$/src/beginner/primitives/Gaussian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/beginner/primitives/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intermediate/exception/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intermediate/inheritance/MultipleFuction.java" afterDir="false" />
+    <list default="true" id="59267c3c-bb52-4da3-8d4d-08dea94bc3bd" name="Changes" comment="Added some new practice solutions v2">
+      <change afterPath="$PROJECT_DIR$/src/beginner/enums/DangerLevelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +58,20 @@
       <recent name="C:\Users\korne\source\repos\TheCompleteJavaCourse" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.intermediate.exception.Main">
+  <component name="RunManager" selected="Application.DangerLevelTest">
+    <configuration name="DangerLevelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beginner.enums.DangerLevelTest" />
+      <module name="TheCompleteJavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="beginner.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Gaussian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="beginner.primitives.Gaussian" />
       <module name="TheCompleteJavaCourse" />
@@ -101,19 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.inheritance.PersonList" />
-      <module name="TheCompleteJavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="intermediate.inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="intermediate.exception.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="intermediate.exception.Main" />
       <module name="TheCompleteJavaCourse" />
@@ -129,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DangerLevelTest" />
         <item itemvalue="Application.intermediate.exception.Main" />
         <item itemvalue="Application.Gaussian" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MultipleFunction" />
-        <item itemvalue="Application.PersonList" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +199,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696759968324</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added some new practice solutions">
+      <option name="closed" value="true" />
+      <created>1698311069328</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698311069328</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added some new practice solutions v2">
+      <option name="closed" value="true" />
+      <created>1698311162219</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698311162219</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,6 +237,8 @@
     <MESSAGE value="added some minor classes" />
     <MESSAGE value="PersonList, Person, Student, Teacher added" />
     <MESSAGE value="static ID added" />
-    <option name="LAST_COMMIT_MESSAGE" value="static ID added" />
+    <MESSAGE value="Added some new practice solutions" />
+    <MESSAGE value="Added some new practice solutions v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some new practice solutions v2" />
   </component>
 </project>
