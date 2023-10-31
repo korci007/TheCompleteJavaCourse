@@ -27,5 +27,8 @@ public class PersonList {
             teacher.getBio();
             System.out.println("Likes: " + teacher.getLikes());
         }
+
+        kungFuBela.setLikes("tobaco");
+        System.out.println(kungFuBela.getName() + " now likes "  + kungFuBela.getLikes());
     }
 }

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59267c3c-bb52-4da3-8d4d-08dea94bc3bd" name="Changes" comment="Added some new practice solutions v2">
-      <change afterPath="$PROJECT_DIR$/src/beginner/enums/DangerLevelTest.java" afterDir="false" />
+    <list default="true" id="59267c3c-bb52-4da3-8d4d-08dea94bc3bd" name="Changes" comment="new class for Hyperskill practice">
+      <change afterPath="$PROJECT_DIR$/src/intermediate/file/FindTheGreatesNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediate/file/GetSumOfNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +26,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -58,13 +62,13 @@
       <recent name="C:\Users\korne\source\repos\TheCompleteJavaCourse" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DangerLevelTest">
-    <configuration name="DangerLevelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beginner.enums.DangerLevelTest" />
+  <component name="RunManager" selected="Application.GetSumOfNumbers">
+    <configuration name="AccountTestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beginner.constructor.AccountTestClass" />
       <module name="TheCompleteJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="beginner.enums.*" />
+          <option name="PATTERN" value="beginner.constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Gaussian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beginner.primitives.Gaussian" />
+    <configuration name="FindTheGreatesNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.file.FindTheGreatesNumber" />
       <module name="TheCompleteJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="beginner.primitives.*" />
+          <option name="PATTERN" value="intermediate.file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beginner.primitives.Main" />
+    <configuration name="GetSumOfNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.file.GetSumOfNumbers" />
       <module name="TheCompleteJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="beginner.primitives.*" />
+          <option name="PATTERN" value="intermediate.file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.inheritance.MultipleFunction" />
+    <configuration name="PersonList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.inheritance.PersonList" />
       <module name="TheCompleteJavaCourse" />
       <extension name="coverage">
         <pattern>
@@ -111,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="intermediate.exception.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.exception.Main" />
+    <configuration name="SumApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beginner.primitives.SumApp" />
       <module name="TheCompleteJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="intermediate.exception.*" />
+          <option name="PATTERN" value="beginner.primitives.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DangerLevelTest" />
-        <item itemvalue="Application.intermediate.exception.Main" />
-        <item itemvalue="Application.Gaussian" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MultipleFunction" />
+        <item itemvalue="Application.GetSumOfNumbers" />
+        <item itemvalue="Application.FindTheGreatesNumber" />
+        <item itemvalue="Application.AccountTestClass" />
+        <item itemvalue="Application.SumApp" />
+        <item itemvalue="Application.PersonList" />
       </list>
     </recent_temporary>
   </component>
@@ -191,31 +195,39 @@
       <option name="project" value="LOCAL" />
       <updated>1696704633938</updated>
     </task>
-    <task id="LOCAL-00007" summary="static ID added">
+    <task id="LOCAL-00007" summary="added likes parameter">
       <option name="closed" value="true" />
-      <created>1696759968324</created>
+      <created>1696705217927</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1696759968324</updated>
+      <updated>1696705217927</updated>
     </task>
-    <task id="LOCAL-00008" summary="Added some new practice solutions">
+    <task id="LOCAL-00008" summary="added likes parameter">
       <option name="closed" value="true" />
-      <created>1698311069328</created>
+      <created>1696705466400</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1698311069328</updated>
+      <updated>1696705466400</updated>
     </task>
-    <task id="LOCAL-00009" summary="Added some new practice solutions v2">
+    <task id="LOCAL-00009" summary="getter and setter added for likes">
       <option name="closed" value="true" />
-      <created>1698311162219</created>
+      <created>1696792435612</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1698311162219</updated>
+      <updated>1696792435612</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new class for Hyperskill practice">
+      <option name="closed" value="true" />
+      <created>1697369412640</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697369412640</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,9 +248,9 @@
     <MESSAGE value="warnings eliminated" />
     <MESSAGE value="added some minor classes" />
     <MESSAGE value="PersonList, Person, Student, Teacher added" />
-    <MESSAGE value="static ID added" />
-    <MESSAGE value="Added some new practice solutions" />
-    <MESSAGE value="Added some new practice solutions v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some new practice solutions v2" />
+    <MESSAGE value="added likes parameter" />
+    <MESSAGE value="getter and setter added for likes" />
+    <MESSAGE value="new class for Hyperskill practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="new class for Hyperskill practice" />
   </component>
 </project>
