@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59267c3c-bb52-4da3-8d4d-08dea94bc3bd" name="Changes" comment="new class for Hyperskill practice">
-      <change afterPath="$PROJECT_DIR$/src/intermediate/file/FindTheGreatesNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intermediate/file/GetSumOfNumbers.java" afterDir="false" />
+    <list default="true" id="59267c3c-bb52-4da3-8d4d-08dea94bc3bd" name="Changes" comment="2 new file processing classes">
+      <change afterPath="$PROJECT_DIR$/dataset_91065.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/beginner/multidimensional/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediate/file/EvenCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediate/file/IntegerPrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +47,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -62,13 +66,26 @@
       <recent name="C:\Users\korne\source\repos\TheCompleteJavaCourse" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GetSumOfNumbers">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="AccountTestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="beginner.constructor.AccountTestClass" />
       <module name="TheCompleteJavaCourse" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="beginner.constructor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvenCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.file.EvenCounter" />
+      <module name="TheCompleteJavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="intermediate.file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,25 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.inheritance.PersonList" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beginner.multidimensional.Main" />
       <module name="TheCompleteJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="intermediate.inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beginner.primitives.SumApp" />
-      <module name="TheCompleteJavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="beginner.primitives.*" />
+          <option name="PATTERN" value="beginner.multidimensional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.EvenCounter" />
         <item itemvalue="Application.GetSumOfNumbers" />
         <item itemvalue="Application.FindTheGreatesNumber" />
         <item itemvalue="Application.AccountTestClass" />
-        <item itemvalue="Application.SumApp" />
-        <item itemvalue="Application.PersonList" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697369412640</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2 new file processing classes">
+      <option name="closed" value="true" />
+      <created>1698574353361</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698574353361</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,6 +254,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="MovieActorApp done" />
     <MESSAGE value=" take 2" />
@@ -251,6 +264,7 @@
     <MESSAGE value="added likes parameter" />
     <MESSAGE value="getter and setter added for likes" />
     <MESSAGE value="new class for Hyperskill practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="new class for Hyperskill practice" />
+    <MESSAGE value="2 new file processing classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 new file processing classes" />
   </component>
 </project>
