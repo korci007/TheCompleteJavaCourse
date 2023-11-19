@@ -1,37 +1,28 @@
-package beginner.primitives;
+class A {
 
-import java.util.Scanner;
+    protected int a;
+}
 
-class Main {
-    public static void main(String[] args) {
-//        Scanner scanner = new Scanner(System.in);
-//        int len = scanner.nextInt();
-//        int[] array = new int[len];
-//        int max =  0;
+class B extends A {
 
-        String str1 = null;
-        String str2 = "123";
+    protected int b;
 
-        if (!str2.equals(str1)) {
-            str2 = null;
-        }
+    public B(int a, int b) {
+        super();     // 1
+        super.a = a; // 2
+        // super.b = b; // 3
+    }
+}
 
-        str1 = str2;
-        str2 = str1;
+class C extends B {
 
-        System.out.println(str2);
+    protected int c;
 
-//        for (int i = 0; i < array.length; i++) {
-//            array[i] = scanner.nextInt();
-//        }
-//
-//       for (int i = 0; i < array.length -1 ; i++) {
-//           int product = array[i] * array[i+1];
-//           if (product > max) {
-//               max = product;
-//           }
-//
-//        }
-//        System.out.println(max);
+//    public C(int a, int b) {
+//        super(a); // 4
+//    }
+
+    public C(int a) {
+        super(a, 10); // 5
     }
 }
